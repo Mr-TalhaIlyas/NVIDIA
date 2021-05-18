@@ -1,11 +1,6 @@
 
-As @etal said, rebooting can solve this problem, but I think a procedure without rebooting will help.
 
-For Chinese, check my blog -> 中文版
-
-The error message
-
-NVML: Driver/library version mismatch
+## NVML: Driver/library version mismatch
 
 tell us the Nvidia driver kernel module (kmod) have a wrong version, so we should unload this driver, and then load the correct version of kmod
 
